@@ -63,7 +63,7 @@ footer {
 }
 
 .pub-image img {
-    max-width: 150px;
+    max-width: 100px;
     height: auto;
     border: 1px solid #ddd;
     padding: 5px;
