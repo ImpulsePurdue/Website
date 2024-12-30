@@ -30,6 +30,9 @@ footer {
     margin-bottom: 30px;
 }
 
+
+/* PUBLICATIONS */
+
 .publication {
     display: flex;
     justify-content: space-between;
@@ -71,6 +74,8 @@ footer {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
+
+/* TEAM */
 
 .team-section {
     margin-bottom: 40px;
@@ -114,4 +119,43 @@ footer {
     margin: 0;
     color: gray;
 }
+
+
+/* RESEARCH */
+
+.research-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.research-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.research-image {
+    flex: 1;
+    text-align: center;
+}
+
+.research-image img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.research-reverse {
+    flex-direction: row-reverse;
+}
+
+.research-section h3 {
+    margin: 0 0 10px;
+}
+
+.research-section p {
+    line-height: 1.6;
+}
+
 
