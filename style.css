@@ -70,3 +70,48 @@ footer {
     background: #f9f9f9;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
+
+
+.team-section {
+    margin-bottom: 40px;
+}
+
+.pi-profile, .student-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.pi-profile img, .student-profile img {
+    max-width: 150px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-details {
+    flex: 1;
+}
+
+.grad-student-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.student-profile a {
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+}
+
+.student-profile h4 {
+    margin: 10px 0 5px;
+}
+
+.student-profile p {
+    margin: 0;
+    color: gray;
+}
+
