@@ -125,23 +125,25 @@ footer {
     display: flex;
     align-items: flex-start;
     margin: 40px 0;
+    flex-wrap: wrap; /* Ensures responsiveness on smaller screens */
 }
 
 .profile-image {
     flex: 1;
-    max-width: 300px;
+    max-width: 300px; /* Limits the maximum width of the image */
     margin-right: 20px;
 }
 
 .profile-image img {
-    width: 100%;
+    width: 100%; /* Ensures the image scales proportionally */
     height: auto;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Adds rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
 }
 
 .profile-details {
     flex: 2;
+    min-width: 300px; /* Ensures the content doesn't shrink too much */
 }
 
 .profile-details h2 {
@@ -165,6 +167,20 @@ footer {
     margin-bottom: 10px;
 }
 
+/* Add media query for smaller screens */
+@media (max-width: 768px) {
+    .profile-section {
+        flex-direction: column; /* Stacks the image and content vertically */
+    }
+
+    .profile-image {
+        margin: 0 auto 20px; /* Centers the image and adds spacing */
+    }
+
+    .profile-details {
+        text-align: center; /* Optional: Center-align text on smaller screens */
+    }
+}
 
 
 /* RESEARCH */
