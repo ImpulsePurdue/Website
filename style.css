@@ -120,6 +120,52 @@ footer {
     color: gray;
 }
 
+/* PROFILE */
+.profile-section {
+    display: flex;
+    align-items: flex-start;
+    margin: 40px 0;
+}
+
+.profile-image {
+    flex: 1;
+    max-width: 300px;
+    margin-right: 20px;
+}
+
+.profile-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-details {
+    flex: 2;
+}
+
+.profile-details h2 {
+    margin: 0 0 10px;
+}
+
+.profile-details p {
+    line-height: 1.6;
+}
+
+.profile-details h3 {
+    margin-top: 20px;
+}
+
+.profile-details ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.profile-details ul li {
+    margin-bottom: 10px;
+}
+
+
 
 /* RESEARCH */
 
