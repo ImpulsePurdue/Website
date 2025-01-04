@@ -11,7 +11,7 @@
     <header class="title-block">
         <div class="logo-container">
             <img src="images/home/IMPULSElab_logo_color.png" alt="IMPULSE Lab Logo">
-            <h1>IMPULSE Lab</h1>
+<!--             <h1>IMPULSE Lab</h1> -->
         </div>
         <nav class="nav-bar">
             <a href="index.html">Home</a>
@@ -30,13 +30,36 @@
         <section class="intro">
             <h2>Welcome to the IMPULSE Lab</h2>
             <p>
-                The IMPULSE Lab at [Institution] conducts cutting-edge research in ultrasonic evaluation, additive manufacturing, and advanced material characterization.
+                We are the IMPULSE research lab in the School of Mechanical Engineering at Purdue University. Our research focuses on ultrasonic evaluation, additive manufacturing, and advanced material characterization. Through cutting-edge experiments and innovative modeling, we strive to advance the understanding and application of these technologies to solve real-world challenges.
             </p>
         </section>
+
     </main>
+    <section class="sponsors">
+        <h3>Our Sponsors</h3>
+        <div class="slider">
+            <div class="slider-track">
+                <div class="slide"><img src="images/sponsor1.png" alt="Sponsor 1"></div>
+                <div class="slide"><img src="images/sponsor2.png" alt="Sponsor 2"></div>
+                <div class="slide"><img src="images/sponsor3.png" alt="Sponsor 3"></div>
+                <div class="slide"><img src="images/sponsor4.png" alt="Sponsor 4"></div>
+                <!-- Add more sponsor logos as needed -->
+            </div>
+        </div>
+    </section>
 
     <footer>
         <p>&copy; 2024 IMPULSE Lab. All rights reserved.</p>
     </footer>
+
+    <script>
+        const sliderTrack = document.querySelector('.slider-track');
+        const slides = document.querySelectorAll('.slide');
+        slides.forEach(slide => {
+            const clone = slide.cloneNode(true);
+            sliderTrack.appendChild(clone);
+        });
+    </script>
+
 </body>
 </html>
