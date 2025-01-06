@@ -112,7 +112,7 @@ footer {
     position: relative;
     width: 100%;
     overflow: hidden;
-    height: 100px; /* Adjust based on desired logo height */
+    height: 500px; /* Adjust based on desired logo height */
 }
 
 .slider-track {
