@@ -1,6 +1,6 @@
 /* General Body Styling */
 body {
-    background-color: #CFB991; /* Matches the home page background */
+    background-color: #FFFFFF; /* Matches the home page background */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #003366; /* Navy background */
+    background-color: #CFB991; 
     color: #ffffff;
     padding: 10px 20px;
 }
