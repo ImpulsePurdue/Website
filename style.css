@@ -97,12 +97,32 @@ footer {
 }
 
 /* PI Section Styling */
+.pi-link {
+    display: block;
+    text-decoration: none; /* Prevent underlining */
+    color: inherit; /* Ensure text color matches the surrounding context */
+}
+
+.pi-link:hover {
+    text-decoration: none; /* Prevent underline on hover */
+}
+
 .pi-profile {
     display: flex;
     align-items: center;
-    justify-content: center; /* Centers the PI content */
-    text-align: left; /* Ensures text remains aligned properly */
+    justify-content: center; /* Centers the content horizontally */
     gap: 20px;
+    text-align: left;
+    background-color: #f1f1f1; /* Optional: Highlight the profile on hover */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pi-link:hover .pi-profile {
+    transform: scale(1.02); /* Slight zoom effect on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
 
 .pi-profile img {
@@ -123,14 +143,6 @@ footer {
     color: #555;
 }
 
-.pi-profile a {
-    color: #003366; /* Link color */
-    text-decoration: none;
-}
-
-.pi-profile a:hover {
-    text-decoration: underline;
-}
 
 /* Graduate Student Grid */
 .grad-student-grid {
