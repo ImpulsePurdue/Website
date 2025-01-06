@@ -5,9 +5,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Research - [Lab Name]</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #f5f5f5; /* Light grey background */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #003366; /* Navy background */
+            color: #ffffff;
+            padding: 10px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+
+        header img {
+            height: 50px;
+        }
+
+        nav {
+            display: flex;
+            gap: 15px;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1em;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .research-section {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .research-reverse {
+            flex-direction: row-reverse;
+        }
+
+        .research-content {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .research-image {
+            flex: 1;
+        }
+
+        .research-image img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #003366; /* Navy background */
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
 </head>
 <body>
     <header>
+        <img src="images/lab_logo.png" alt="[Lab Name] Logo">
         <h1>[Lab Name]</h1>
         <nav>
             <a href="index.html">Home</a>
@@ -23,7 +104,7 @@
     <main>
         <h2>Research Focus</h2>
 
-        <!-- Research Focus 1 -->
+        <!-- Research Focus Sections -->
         <section class="research-section">
             <div class="research-content">
                 <h3>Ultrasonic Evaluation</h3>
@@ -35,8 +116,7 @@
                 <img src="images/ultrasonic.jpg" alt="Ultrasonic Evaluation">
             </div>
         </section>
- 
-        <!-- Research Focus 2 -->
+
         <section class="research-section research-reverse">
             <div class="research-image">
                 <img src="images/beam_modelling.jpg" alt="Beam Modelling">
@@ -49,7 +129,6 @@
             </div>
         </section>
 
-        <!-- Research Focus 3 -->
         <section class="research-section">
             <div class="research-content">
                 <h3>Polymer Additive Manufacturing</h3>
@@ -62,7 +141,6 @@
             </div>
         </section>
 
-        <!-- Research Focus 4 -->
         <section class="research-section research-reverse">
             <div class="research-image">
                 <img src="images/metal_additive.jpg" alt="Metal Additive Manufacturing">
