@@ -112,30 +112,29 @@ footer {
     position: relative;
     width: 100%;
     overflow: hidden;
-    height: 500px; /* Adjust based on desired logo height */
+    height: 150px; /* Adjust height to match the desired logo height */
 }
 
 .slider-track {
     display: flex;
     align-items: center; /* Aligns logos vertically */
-    animation: scroll 15s linear infinite; /* Adjust duration as needed */
+    animation: scroll 15s linear infinite; /* Adjust duration for desired speed */
 }
 
 .slide {
     flex: 0 0 auto;
-    height: 100%; /* Ensures all logos fit the slider height */
-    margin: 0 10px;
+    margin: 0 15px; /* Add spacing between logos */
     display: flex;
     align-items: center; /* Centers logos within their container */
 }
 
 .slide img {
-    height: 100%; /* Keeps all logos the same height */
-    width: auto; /* Ensures aspect ratio is maintained */
+    max-height: 100%; /* Ensures logos fit within the slider height */
+    width: auto; /* Maintains the aspect ratio */
     display: block;
 }
 
-
+/* Smooth scrolling animation */
 @keyframes scroll {
     from {
         transform: translateX(0);
@@ -144,6 +143,7 @@ footer {
         transform: translateX(-100%);
     }
 }
+
 
 
 
