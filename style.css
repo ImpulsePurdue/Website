@@ -86,41 +86,92 @@ footer {
     padding: 10px 0;
 }
 
-/* Team Section Styling */
+/* General Section Styling for Team Page */
 .team-section {
-    margin-bottom: 40px;
+    background-color: #f1f1f1; /* Light gray box */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.pi-profile, .student-profile {
+/* PI Section Styling */
+.pi-profile {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
 }
 
-.pi-profile img, .student-profile img {
+.pi-profile img {
     max-width: 150px;
-    height: auto;
-    margin-right: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.profile-details {
-    flex: 1;
+.pi-profile .profile-details h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
 }
 
-/* Responsive Grid for Students */
+.pi-profile .profile-details p {
+    margin: 5px 0;
+    line-height: 1.6;
+    color: #555;
+}
+
+.pi-profile a {
+    color: #003366; /* Link color */
+    text-decoration: none;
+}
+
+.pi-profile a:hover {
+    text-decoration: underline;
+}
+
+/* Graduate Student Grid */
 .grad-student-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
     gap: 20px;
 }
 
-.student-profile a {
-    text-decoration: none;
-    color: inherit;
+.student-profile {
     text-align: center;
 }
+
+.student-profile img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.student-profile h4 {
+    margin: 5px 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.student-profile p {
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* Undergraduate and Alumni Sections */
+.team-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.team-section ul li {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #555;
+}
+
 
 /* Publications Section */
 .publication {
