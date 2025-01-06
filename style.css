@@ -1,34 +1,58 @@
+/* General Body Styling */
 body {
+    background-color: #CFB991; /* Matches the home page background */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
+/* Header Styling */
 header {
-    background-color: #004080;
-    color: white;
-    padding: 20px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #003366; /* Navy background */
+    color: #ffffff;
+    padding: 10px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+header img {
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
 }
 
 nav a {
-    color: white;
-    margin: 0 15px;
+    color: #ffffff;
     text-decoration: none;
+    font-size: 1em;
 }
 
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styling */
 main {
     padding: 20px;
 }
 
-footer {
-    background-color: #f1f1f1;
+main h2 {
     text-align: center;
-    padding: 10px 0;
+    color: #333333;
+    margin-bottom: 20px;
 }
-.year-section {
-    margin-bottom: 30px;
-}
+
+
+
 
 /* HOME */
 /* Title Block Styling */
@@ -301,58 +325,6 @@ footer {
 }
 
 
-/* General Body Styling */
-body {
-    background-color: #CFB991; /* Matches the home page background */
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-/* Header Styling */
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #003366; /* Navy background */
-    color: #ffffff;
-    padding: 10px 20px;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 1.5em;
-}
-
-header img {
-    height: 50px;
-}
-
-nav {
-    display: flex;
-    gap: 15px;
-}
-
-nav a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 1em;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-/* Main Content Styling */
-main {
-    padding: 20px;
-}
-
-main h2 {
-    text-align: center;
-    color: #333333;
-    margin-bottom: 20px;
-}
 
 
 /*  */
