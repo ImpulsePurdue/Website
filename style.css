@@ -129,7 +129,7 @@ footer {
 }
 
 .slide img {
-    max-height: 150px; /* Ensures logos fit within the slider height */
+    max-height: 50px; /* Ensures logos fit within the slider height */
     width: auto; /* Maintains the aspect ratio */
     display: block;
 }
