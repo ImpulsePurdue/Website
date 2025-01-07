@@ -143,7 +143,14 @@ footer {
     color: #555;
 }
 
-
+/* Graduate Student Grid - 1 Row, 3 Columns */
+.grad-student-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px; /* Space between columns */
+    justify-content: center;
+    margin: 0 auto;
+}
 /* General Styling for Student Profiles */
 .student-link {
     display: block;
