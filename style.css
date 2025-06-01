@@ -8,7 +8,7 @@ body {
 
 /* Header Styling */
 header {
-    background-color: #F0E8D6; 
+    background-color: #f1f1f1; 
     text-align: center;
     padding: 20px 0;
 }
@@ -35,7 +35,7 @@ header img {
 
 .nav-bar a:hover {
     background-color: #333;
-    color: #CFB991;
+    color: #f1f1f1;
 }
 
 /* Main Content Styling */
@@ -48,6 +48,16 @@ main h2 {
     color: #333333;
     margin-bottom: 20px;
 }
+/* Footer Styling */
+footer {
+    background-color: #f1f1f1; /* Light gray background */
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
 
 /* Research Section Styling */
 .research-section {
@@ -78,13 +88,10 @@ main h2 {
     border-radius: 8px;
 }
 
-/* Footer Styling */
-footer {
-    background-color: #f1f1f1; /* Light gray background */
-    color: #333;
-    text-align: center;
-    padding: 10px 0;
-}
+
+
+
+
 
 /* General Section Styling for Team Page */
 .team-section {
