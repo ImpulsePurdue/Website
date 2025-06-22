@@ -38,6 +38,39 @@ header img {
     color: #f1f1f1;
 }
 
+/* Header Styling for Logo and Navigation */
+header {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header img {
+    height: 100px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.nav-bar a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-bar a:hover {
+    background-color: #333;
+    color: #CFB991;
+}
+
+
 /* Main Content Styling */
 main {
     padding: 20px;
@@ -341,37 +374,6 @@ footer {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Header Styling for Logo and Navigation */
-header {
-    background-color: #CFB991;
-    text-align: center;
-    padding: 20px 0;
-}
-
-header img {
-    height: 100px;
-}
-
-.nav-bar {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 10px;
-}
-
-.nav-bar a {
-    color: #333;
-    text-decoration: none;
-    font-size: 1.2em;
-    padding: 5px 10px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.nav-bar a:hover {
-    background-color: #333;
-    color: #CFB991;
-}
 
 /* Profile Section Styling */
 .profile-section {
