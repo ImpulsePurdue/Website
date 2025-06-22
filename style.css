@@ -497,5 +497,15 @@ header img {
   margin-top: 10px;
 }
 
+.media-image {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.media-image img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
 
 
