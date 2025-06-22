@@ -507,5 +507,15 @@ header img {
   height: auto;
   border-radius: 8px;
 }
+.media-image-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-start;
+}
+.media-image-row img {
+  width: 200px;
+  height: auto;
+}
 
 
